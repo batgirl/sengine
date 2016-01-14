@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+html {
+  position: relative;
+  background-color: #dddddd;
+}
+
+body {
+  height: 100%;
+  padding-bottom: 200px;
+  background-color: #dddddd;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+h1 {
+  margin-top: 0px !important;
+}
+
+.btn {
+  font-family: 'Muli', sans-serif;
+}
+
+.lead {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.title {
+  padding-top: 30px;
+  font-size: 62px;
+}
+
+.d3Append {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10%; 
+  vertical-align: middle; 
+  overflow: hidden;
+  font-family: 'Muli', sans-serif;
+}
+
+.svg-content { 
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+text.shadow {
+  stroke: #dddddd;
+  stroke-width: 1.2px;
+  opacity: 1;
+}
+
+.navbar {
+  top: 0;
+  border-radius: 0;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid;
+  margin-bottom: 50px;
+}
+
+.nav {
+  font-size: 1.25em;
+  font-family: 'Muli', sans-serif;
+}
+
+.nav a {
+  color: #dddddd !important;
+}
+
+.nav a:hover {
+  color: white !important;
+}
+
+.btn-warning {
+  color: #ffffff !important;
+  background-color: rgb(203, 81, 58) !important; 
+  border-color: rgb(182, 69, 48) !important;
+}
+
+.btn-primary {
+  color: #ffffff !important;
+  background-color: rgb(101, 185, 172) !important; 
+  border-color: rgb(72, 158, 144) !important;
+}
+
+.ng-view {
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: black;
+  color: white !important;
+  padding-top: 15px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+}
+
+.footer a, .footer a:hover {
+  color: white;
+}
+
+.fa {
+  top: 0;
+  margin: 0;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+path:first-child {
+  fill: #ddd !important;
+}
+
+circle {
+  fill: none;
+  pointer-events: none;
+}
+
+.q0-9 { fill: rgb(101, 185, 172); }
+.q1-9 { fill: rgb(150, 207, 198); }
+.q2-9 { fill: rgb(115, 192, 58); }
+.q3-9 { fill: rgb(218, 130, 114); }
+.q4-9 { fill: rgb(202, 231, 227); }
+.q5-9 { fill: rgb(244, 219, 215); }
+.q6-9 { fill: rgb(203, 81, 58); }
+.q7-9 { fill: rgb(228, 166, 154); }
+.q8-9 { fill: rgb(72, 157, 145); }
